@@ -12,6 +12,5 @@
  16 .plt          000001f0  0000000000001a30  0000000000001a30
 ```
 ```
-```
 
 you can be seen that there are three custom sections added to the binary: `.anti_debug_trap`, `.verifier_hash_check`, and `.anti_debug_integrity_check`. These sections are likely used for anti-debugging and integrity verification purposes in the security program.
